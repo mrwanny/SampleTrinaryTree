@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A8970D1629CF5A001A1900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8970C1629CF5A001A1900 /* Foundation.framework */; };
+		25A897141629CF5B001A1900 /* TrinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A897131629CF5B001A1900 /* TrinaryTree.m */; };
+		25A8971C1629CF5B001A1900 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8971B1629CF5B001A1900 /* SenTestingKit.framework */; };
+		25A8971F1629CF5B001A1900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8970C1629CF5A001A1900 /* Foundation.framework */; };
+		25A897281629CF5B001A1900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25A897261629CF5B001A1900 /* InfoPlist.strings */; };
+		25A8973C1629D55A001A1900 /* TrinaryTreeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A8973B1629D55A001A1900 /* TrinaryTreeSpec.m */; };
+		25A8973E1629DAA5001A1900 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A8973D1629DAA5001A1900 /* libKiwi.a */; };
+		25A897421629DF93001A1900 /* TrinaryNodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A897411629DF93001A1900 /* TrinaryNodeSpec.m */; };
+		25F66FFB1629F1D900C9C4D4 /* TrinaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A897351629CF7C001A1900 /* TrinaryNode.m */; };
+		25F66FFD1629F56800C9C4D4 /* TrinaryNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A897341629CF7C001A1900 /* TrinaryNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F66FFE1629F57600C9C4D4 /* TrinaryTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A897111629CF5B001A1900 /* TrinaryTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F670001629F6CF00C9C4D4 /* TrinaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A897351629CF7C001A1900 /* TrinaryNode.m */; };
+		25F670011629F6E600C9C4D4 /* TrinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A897131629CF5B001A1900 /* TrinaryTree.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A897201629CF5B001A1900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A897001629CF5A001A1900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A897081629CF5A001A1900;
+			remoteInfo = TrinaryTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A897091629CF5A001A1900 /* libTrinaryTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTrinaryTree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8970C1629CF5A001A1900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A897101629CF5B001A1900 /* TrinaryTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrinaryTree-Prefix.pch"; sourceTree = "<group>"; };
+		25A897111629CF5B001A1900 /* TrinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrinaryTree.h; sourceTree = "<group>"; };
+		25A897131629CF5B001A1900 /* TrinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrinaryTree.m; sourceTree = "<group>"; };
+		25A8971A1629CF5B001A1900 /* TrinaryTreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinaryTreeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A8971B1629CF5B001A1900 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		25A897251629CF5B001A1900 /* TrinaryTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrinaryTreeTests-Info.plist"; sourceTree = "<group>"; };
+		25A897271629CF5B001A1900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25A897341629CF7C001A1900 /* TrinaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrinaryNode.h; sourceTree = "<group>"; };
+		25A897351629CF7C001A1900 /* TrinaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinaryNode.m; sourceTree = "<group>"; };
+		25A8973B1629D55A001A1900 /* TrinaryTreeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinaryTreeSpec.m; sourceTree = "<group>"; };
+		25A8973D1629DAA5001A1900 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "../Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
+		25A897411629DF93001A1900 /* TrinaryNodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrinaryNodeSpec.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A897061629CF5A001A1900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8970D1629CF5A001A1900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A897161629CF5B001A1900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8973E1629DAA5001A1900 /* libKiwi.a in Frameworks */,
+				25A8971C1629CF5B001A1900 /* SenTestingKit.framework in Frameworks */,
+				25A8971F1629CF5B001A1900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A896FE1629CF5A001A1900 = {
+			isa = PBXGroup;
+			children = (
+				25A8970E1629CF5B001A1900 /* TrinaryTree */,
+				25A897231629CF5B001A1900 /* TrinaryTreeTests */,
+				25A8970B1629CF5A001A1900 /* Frameworks */,
+				25A8970A1629CF5A001A1900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25A8970A1629CF5A001A1900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A897091629CF5A001A1900 /* libTrinaryTree.a */,
+				25A8971A1629CF5B001A1900 /* TrinaryTreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A8970B1629CF5A001A1900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25A8973D1629DAA5001A1900 /* libKiwi.a */,
+				25A8970C1629CF5A001A1900 /* Foundation.framework */,
+				25A8971B1629CF5B001A1900 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A8970E1629CF5B001A1900 /* TrinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				25A897341629CF7C001A1900 /* TrinaryNode.h */,
+				25A897351629CF7C001A1900 /* TrinaryNode.m */,
+				25A897111629CF5B001A1900 /* TrinaryTree.h */,
+				25A897131629CF5B001A1900 /* TrinaryTree.m */,
+				25A8970F1629CF5B001A1900 /* Supporting Files */,
+			);
+			path = TrinaryTree;
+			sourceTree = "<group>";
+		};
+		25A8970F1629CF5B001A1900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A897101629CF5B001A1900 /* TrinaryTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25A897231629CF5B001A1900 /* TrinaryTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				25A8973B1629D55A001A1900 /* TrinaryTreeSpec.m */,
+				25A897411629DF93001A1900 /* TrinaryNodeSpec.m */,
+				25A897241629CF5B001A1900 /* Supporting Files */,
+			);
+			path = TrinaryTreeTests;
+			sourceTree = "<group>";
+		};
+		25A897241629CF5B001A1900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A897251629CF5B001A1900 /* TrinaryTreeTests-Info.plist */,
+				25A897261629CF5B001A1900 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25F66FFC1629F55600C9C4D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F66FFD1629F56800C9C4D4 /* TrinaryNode.h in Headers */,
+				25F66FFE1629F57600C9C4D4 /* TrinaryTree.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25A897081629CF5A001A1900 /* TrinaryTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A8972E1629CF5B001A1900 /* Build configuration list for PBXNativeTarget "TrinaryTree" */;
+			buildPhases = (
+				25A897051629CF5A001A1900 /* Sources */,
+				25A897061629CF5A001A1900 /* Frameworks */,
+				25F66FFC1629F55600C9C4D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrinaryTree;
+			productName = TrinaryTree;
+			productReference = 25A897091629CF5A001A1900 /* libTrinaryTree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		25A897191629CF5B001A1900 /* TrinaryTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A897311629CF5B001A1900 /* Build configuration list for PBXNativeTarget "TrinaryTreeTests" */;
+			buildPhases = (
+				25A897151629CF5B001A1900 /* Sources */,
+				25A897161629CF5B001A1900 /* Frameworks */,
+				25A897171629CF5B001A1900 /* Resources */,
+				25A897181629CF5B001A1900 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A897211629CF5B001A1900 /* PBXTargetDependency */,
+			);
+			name = TrinaryTreeTests;
+			productName = TrinaryTreeTests;
+			productReference = 25A8971A1629CF5B001A1900 /* TrinaryTreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A897001629CF5A001A1900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.mrwanny;
+			};
+			buildConfigurationList = 25A897031629CF5A001A1900 /* Build configuration list for PBXProject "TrinaryTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25A896FE1629CF5A001A1900;
+			productRefGroup = 25A8970A1629CF5A001A1900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A897081629CF5A001A1900 /* TrinaryTree */,
+				25A897191629CF5B001A1900 /* TrinaryTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A897171629CF5B001A1900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A897281629CF5B001A1900 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A897181629CF5B001A1900 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A897051629CF5A001A1900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F66FFB1629F1D900C9C4D4 /* TrinaryNode.m in Sources */,
+				25A897141629CF5B001A1900 /* TrinaryTree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A897151629CF5B001A1900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F670011629F6E600C9C4D4 /* TrinaryTree.m in Sources */,
+				25F670001629F6CF00C9C4D4 /* TrinaryNode.m in Sources */,
+				25A8973C1629D55A001A1900 /* TrinaryTreeSpec.m in Sources */,
+				25A897421629DF93001A1900 /* TrinaryNodeSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A897211629CF5B001A1900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A897081629CF5A001A1900 /* TrinaryTree */;
+			targetProxy = 25A897201629CF5B001A1900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A897261629CF5B001A1900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A897271629CF5B001A1900 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A8972C1629CF5B001A1900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A8972D1629CF5B001A1900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A8972F1629CF5B001A1900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/TrinaryTree.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrinaryTree/TrinaryTree-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		25A897301629CF5B001A1900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/TrinaryTree.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrinaryTree/TrinaryTree-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		25A897321629CF5B001A1900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrinaryTree/TrinaryTree-Prefix.pch";
+				INFOPLIST_FILE = "TrinaryTreeTests/TrinaryTreeTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../Kiwi/Kiwi";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		25A897331629CF5B001A1900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrinaryTree/TrinaryTree-Prefix.pch";
+				INFOPLIST_FILE = "TrinaryTreeTests/TrinaryTreeTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/../Kiwi/Kiwi";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A897031629CF5A001A1900 /* Build configuration list for PBXProject "TrinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8972C1629CF5B001A1900 /* Debug */,
+				25A8972D1629CF5B001A1900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8972E1629CF5B001A1900 /* Build configuration list for PBXNativeTarget "TrinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8972F1629CF5B001A1900 /* Debug */,
+				25A897301629CF5B001A1900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A897311629CF5B001A1900 /* Build configuration list for PBXNativeTarget "TrinaryTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A897321629CF5B001A1900 /* Debug */,
+				25A897331629CF5B001A1900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A897001629CF5A001A1900 /* Project object */;
+}
